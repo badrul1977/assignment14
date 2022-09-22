@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.mian{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+/* ---------header start-------- */
+.header {
+    width: 100%;
+    background-color: #7f56f5;
+}
+.suv-header{
+    display: flex;
+    list-style-type: none;
+}
+.suv-header .logo{
+    display: flex;
+    width: 15%;
+}
+.suv-header .logo img{
+    width: 100%;
+    padding: 20px;
+
+}
+.nav{
+    width: 80%;
+}
+.suv-nav{
+    width: 100%;
+}
+.suv-nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 20px 0px;
+}
+.suv-nav ul li{
+    padding: 20px;
+   font-size: 20px;
+
+}
+.suv-nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.heading{
+    text-align: center;
+    padding: 50px;
+}
+.heading h1{
+    color: aliceblue;
+}
+.heading p{
+    font-size: 20px;
+    color: aliceblue;
+}
+
+/* ---------header end-------- */
+
+
+
+/* ---------section start-------- */
+
+.section-one{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+}
+.left{
+    width: 50%;
+    padding: 100px 100px;
+}
+.left h2{
+    padding: 20px 0px;
+}
+.left p{
+    padding: 20px 0px;
+    text-align: justify;
+}
+.left a{
+    background-color: #7f56f5;
+    padding: 12px;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 5px;
+}
+.right{
+    width: 50%;
+}
+.right img{
+   padding: 50px 10px;
+   width: 100%;
+}
+
+/* ---------section end-------- */
+
+
+/* ---------footer start-------- */
+.footer{
+    width: 100%;
+    background-color: #edebf3;
+}
+.suv-footer{
+    display: flex;
+    list-style-type: none;
+
+}
+.suv-footer .logo{
+    flex: 25%;
+    padding: 20px;
+}
+.suv-footer img{
+    
+}
+.suv-footer p{
+    padding: 20px 0px;
+}
+.box{
+    width: 25%;
+    padding: 20px;
+}
+.box h4{
+    font-size: 25px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+    padding: 10px 0;
+}
+.box ul li a{
+    text-decoration: none;
+    color: black;
+}
+/* ---------footer end-------- */
+.butt img{
+    width: 100%;
+}
